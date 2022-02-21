@@ -23,8 +23,8 @@ public class SeleniumDemo {
 
 }
 
-// 1. JDK
-//2.  Eclipse
-//3. Create Project
-//4. Selenium Jar - Configure
-//5. Drivers - chrome
+// http://demo.guru99.com/test/newtours/register.php -- DropDown
+// http://demo.guru99.com/test/delete_customer.php  --- AlertPopup
+// https://www.travolook.in/?gclid=Cj0KCQjw4cOEBhDMARIsAA3XDRjGAeFHS8cqdKjY45Sc7ZEf98H63uG7bP6HsxGr9ugbNNNMU0GJZdYaAoH4EALw_wcB   --- ActionClass
+// http://automationpractice.com/index.php 
+// 

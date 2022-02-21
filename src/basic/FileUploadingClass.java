@@ -26,6 +26,8 @@ public class FileUploadingClass {
 	WebElement submitBtn = driver.findElement(By.name("send"));
 	submitBtn.click();
 	
+	driver.quit();
+	
 	}
 
 }

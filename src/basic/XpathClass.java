@@ -26,13 +26,19 @@ public class XpathClass {
 		WebElement loginBtn = driver.findElement(By.id("btnLogin"));
 		loginBtn.click();
 		
-		//By using LinkText
-		WebElement forgetPassword = driver.findElement(By.linkText("Forgot your password?"));
-		forgetPassword.click();
+//		//By using LinkText
+//		WebElement forgetPassword = driver.findElement(By.linkText("Forgot your password?"));
+//		forgetPassword.click();
+//		
+//		//By using PartialLinkText
+//		WebElement forgetPass = driver.findElement(By.partialLinkText("Forgot your"));
+//		forgetPass.click();
 		
-		//By using PartialLinkText
-		WebElement forgetPass = driver.findElement(By.partialLinkText("Forgot your"));
-		forgetPass.click();
+//		By using xPath
+		WebElement admin = driver.findElement(By.xpath("//a[@id='menu_admin_viewAdminModule']"));
+		admin.click();
+		
+		
 		
 	}
 
