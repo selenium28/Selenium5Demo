@@ -22,6 +22,8 @@ public class AlertPopup {
 		WebElement submit = driver.findElement(By.xpath("//input[@name='submit']"));
 		submit.click();
 		
+		// Alert is a Interface in Selenium
+		
 		Alert alert = driver.switchTo().alert();
 //		String popmsg = driver.switchTo().alert().getText();
 		String popmsg = alert.getText();
